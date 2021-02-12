@@ -1,0 +1,353 @@
+meta {
+  -theme-display-name: "Tomorrow Night Eighties";
+  -theme-interface-style: dark;
+  -theme-accent-color: auto;
+}
+
+/*
+ * Window styles
+ */
+meta.window {
+  border-color: #2d2d2f;
+  background-color: #202022;
+}
+
+meta.titlebar {
+  color: #e0e0e2;
+  border-color: #272729;
+  background-color: #202022;
+}
+
+meta.button {
+  background: linear-gradient(#515153, #39393b);
+  border: #2d2d2f;
+  color: #e0e0e2;
+}
+
+meta.button.highlighted {
+  background: linear-gradient(#59595b, #414143);
+  color: white;
+}
+
+meta.button.selected {
+  color: white;
+}
+
+meta.button.highlighted.selected {
+  color: white;
+}
+
+meta.textfield {
+  background-color: #2d2d2f;
+  border-color: #39393b;
+}
+
+meta.textfield.highlighted {
+  background-color: #272729;
+  border-color: #383b3e;
+}
+
+/*
+ * Document styles
+ */
+meta.document {
+  background-color: #272729;
+  border-color: #272729;
+}
+
+meta.document.button {
+  background: linear-gradient(#515153, #39393b);
+  border: #2d2d2f;
+}
+
+meta.document.button.disabled {
+  background: linear-gradient(rgba(61, 63, 67, 0.3), rgba(51, 53, 56, 0.3));
+}
+
+meta.document.button.highlighted {
+  background: linear-gradient(#59595b, #414143);
+}
+
+meta.document.textfield {
+  background-color: #202022;
+  border-color: #39393b;
+}
+
+meta.document.textfield.highlighted {
+  background-color: #202022;
+  border-color: #2e3033;
+}
+
+/* Text */
+meta.text {
+  color: #e0e0e2;
+}
+
+meta.text.invisible {
+  color: #515153;
+}
+
+meta.text.selected {
+  background-color: #515153;
+}
+
+/* Cursor */
+meta.cursor {
+  background-color: #39393b;
+}
+
+/* Indentation Guides */
+meta.indentguide {
+  border-color: #515153;
+}
+
+/* Gutter */
+meta.gutter {
+  color: #515153;
+}
+
+meta.gutter.selected {
+  background-color: #6699ce;
+  color: white;
+}
+
+/*
+ * Syntax styles
+ */
+keyword {
+  color: #cc99ce;
+}
+
+comment {
+  color: #88888a;
+}
+
+processing {
+  color: #cc99ce;
+}
+
+declaration {
+  color: #cc99ce;
+}
+
+bracket {
+  color: #e0e0e2;
+}
+
+operator {
+  color: #e0e0e2;
+}
+
+invalid {
+  background-color: #ff6e76;
+  color: white;
+}
+
+link {
+  color: #6699ce;
+}
+
+/* Values */
+value.boolean {
+  color: #f99159;
+}
+
+value.null {
+  color: #f99159;
+}
+
+value.number {
+  color: #f99159;
+}
+
+value.entity {
+  color: #f99159;
+}
+
+value.symbol {
+  color: #f99159;
+}
+
+/* Identifiers */
+identifier.type {
+  color: #ffcc68;
+}
+
+identifier.global {
+  color: #e0e0e2;
+}
+
+identifier.variable {
+  color: #ff6e76;
+}
+
+identifier.decorator,
+identifier.function,
+identifier.method {
+  color: #6699ce;
+}
+
+identifier.property {
+  color: #ff6e76;
+}
+
+identifier.key {
+  color: #e0e0e2;
+}
+
+identifier.argument {
+  color: #ff6e76;
+}
+
+/* Strings */
+string {
+  color: #99cc9b;
+}
+
+string.key {
+  color: #99cc9b;
+}
+
+string-template {
+  color: #99cc9b;
+}
+
+string-template.value {
+  color: #99cc9b;
+}
+
+regex {
+  color: #66ccce;
+}
+
+regex.escaped {
+  color: #66ccce;
+}
+
+cdata {
+  color: #e0e0e2;
+}
+
+/* Markup */
+markup.heading {
+  color: #6699ce;
+}
+
+markup.line {
+  color: #6699ce;
+}
+
+markup.bold {
+  color: #ffcc68;
+  font-weight: bold;
+}
+
+markup.italic {
+  color: #cc99ce;
+  font-style: italic;
+}
+
+markup.strikethrough {
+  color: #99cc9b;
+}
+
+markup.list.item {
+  color: #ff6e76;
+}
+
+markup.code {
+  color: #88888a;
+}
+
+markup.link {
+  color: #6699ce;
+}
+
+/* Types */
+definition.class class.name,
+definition.type type.name,
+definition.package package.name,
+definition.enum enum.name,
+definition.union union.name,
+definition.struct struct.name {
+  color: #cc99ce;
+}
+
+/* Members */
+definition.property property.name,
+definition.function function.name,
+definition.method method.name {
+  color: #cc99ce;
+}
+
+/* Tags */
+tag {
+  color: #ff6e76;
+}
+
+tag.framework {
+  color: #ffcc68;
+}
+
+tag.attribute.name {
+  color: #f99159;
+}
+
+tag.attribute.value {
+  color: #99cc9b;
+}
+
+tag.attribute.value.link {
+  color: #6699ce;
+}
+
+/* Styles */
+style.at {
+  color: #cc99ce;
+}
+
+style.selector.element {
+  color: #ff6e76;
+}
+
+style.selector.identifier.id {
+  color: #6699ce;
+}
+
+style.selector.identifier.class {
+  color: #f99159;
+}
+
+style.selector.pseudoclass {
+  color: #f99159;
+}
+
+style.selector.pseudoelement {
+  color: #f99159;
+}
+
+style.attribute.name {
+  color: #e0e0e2;
+}
+
+style.value.number {
+  color: #f99159;
+}
+
+style.value.color.hex {
+  color: #66ccce;
+}
+
+style.value.keyword {
+  color: #cc99ce;
+}
+
+style.value.color.named {
+  color: #6699ce;
+}
+
+style.value.identifier.function {
+  color: #66ccce;
+}
+
+/*# sourceMappingURL=Tomorrow%20Night%20Eighties.css.map */

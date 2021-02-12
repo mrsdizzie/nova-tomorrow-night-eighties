@@ -1,0 +1,322 @@
+meta {
+  -theme-display-name: "Tomorrow Night Eighties";
+  -theme-interface-style: dark;
+  -theme-accent-color: auto;
+}
+
+// Colors
+$window_color: #202022;
+$bg: #272729;
+$gray0: #2d2d2f;
+$gray1: #39393b;
+$gray2: #515153;
+$gray3: #88888a;
+$gray4: #b4b7b6;
+$gray5: #ccccce;
+$text_color: #e0e0e2;
+$white: #fdfdff;
+$red: #ff6e76;
+$orange: #f99159;
+$yellow: #ffcc68;
+$green: #99cc9b;
+$cyan: #66ccce;
+$blue: #6699ce;
+$pink: #cc99ce;
+$brown: #a3685c;
+
+/*
+ * Window styles
+ */
+meta.window {
+  border-color: $gray0;
+  background-color: $window_color;
+}
+meta.titlebar {
+  color: $text_color;
+  border-color: $bg;
+  background-color: $window_color;
+}
+meta.titlebar.inactive {
+}
+
+meta.button {
+  background: linear-gradient($gray2, $gray1);
+  border: $gray0;
+  color: $text_color;
+}
+meta.button.highlighted {
+  background: linear-gradient(lighten($gray2, 3%), lighten($gray1, 3%));
+  color: white;
+}
+meta.button.selected {
+  color: white;
+}
+meta.button.highlighted.selected {
+  color: white;
+}
+meta.button.disabled {
+}
+
+meta.textfield {
+  background-color: $gray0;
+  border-color: $gray1;
+}
+meta.textfield.highlighted {
+  background-color: $bg;
+  border-color: hsl(210, 5%, 23%);
+}
+
+/*
+ * Document styles
+ */
+meta.document {
+  background-color: $bg;
+  border-color: $bg;
+}
+
+meta.document.button {
+  background: linear-gradient($gray2, $gray1);
+  border: $gray0;
+}
+meta.document.button.disabled {
+  background: linear-gradient(hsla(220, 5%, 25%, 0.3), hsla(220, 5%, 21%, 0.3));
+}
+meta.document.button.highlighted {
+  background: linear-gradient(lighten($gray2, 3%), lighten($gray1, 3%));
+}
+
+meta.document.textfield {
+  background-color: $window_color;
+  border-color: $gray1;
+}
+meta.document.textfield.highlighted {
+  background-color: $window_color;
+  border-color: hsl(210, 5%, 19%);
+}
+
+/* Text */
+meta.text {
+  color: $text_color;
+}
+meta.text.invisible {
+  color: $gray2;
+}
+meta.text.selected {
+  background-color: $gray2;
+}
+
+/* Cursor */
+meta.cursor {
+  background-color: $gray1;
+}
+
+/* Indentation Guides */
+meta.indentguide {
+  border-color: $gray2;
+}
+
+/* Gutter */
+meta.gutter {
+  color: $gray2;
+}
+meta.gutter.selected {
+  background-color: $blue;
+  color: white;
+}
+
+/*
+ * Syntax styles
+ */
+
+keyword {
+  color: $pink;
+}
+comment {
+  color: $gray3;
+}
+processing {
+  color: $pink;
+}
+declaration {
+  color: $pink;
+}
+bracket {
+  color: $text_color;
+}
+operator {
+  color: $text_color;
+}
+invalid {
+  background-color: $red;
+  color: white;
+}
+link {
+  color: $blue;
+}
+
+/* Values */
+value.boolean {
+  color: $orange;
+}
+value.null {
+  color: $orange;
+}
+value.number {
+  color: $orange;
+}
+value.entity {
+  color: $orange;
+}
+value.symbol {
+  color: $orange;
+}
+
+/* Identifiers */
+identifier.type {
+  color: $yellow;
+}
+identifier.constant {
+}
+identifier.global {
+  color: $text_color;
+}
+identifier.variable {
+  color: $red;
+}
+identifier.decorator,
+identifier.function,
+identifier.method {
+  color: $blue;
+}
+identifier.property {
+  color: $red;
+}
+identifier.key {
+  color: $text_color;
+}
+identifier.argument {
+  color: $red;
+}
+
+/* Strings */
+string {
+  color: $green;
+}
+string.key {
+  color: $green;
+}
+string-template {
+  color: $green;
+}
+string-template.value {
+  color: $green;
+}
+regex {
+  color: $cyan;
+}
+regex.escaped {
+  color: $cyan;
+}
+cdata {
+  color: $text_color;
+}
+
+/* Markup */
+markup.heading {
+  color: $blue;
+}
+markup.line {
+  color: $blue;
+}
+markup.bold {
+  color: $yellow;
+  font-weight: bold;
+}
+markup.italic {
+  color: $pink;
+  font-style: italic;
+}
+markup.strikethrough {
+  color: $green;
+}
+markup.list.item {
+  color: $red;
+}
+markup.code {
+  color: $gray3;
+}
+markup.link {
+  color: $blue;
+}
+
+/* Types */
+definition.class class.name,
+definition.type type.name,
+definition.package package.name,
+definition.enum enum.name,
+definition.union union.name,
+definition.struct struct.name {
+  color: $pink;
+}
+
+/* Members */
+definition.property property.name,
+definition.function function.name,
+definition.method method.name {
+  color: $pink;
+}
+
+/* Tags */
+tag {
+  color: $red;
+}
+tag.framework {
+  color: $yellow;
+}
+tag.attribute.name {
+  color: $orange;
+}
+tag.attribute.value {
+  color: $green;
+}
+tag.attribute.value.link {
+  color: $blue;
+}
+
+/* Styles */
+style.at {
+  color: $pink;
+}
+style.selector.element {
+  color: $red;
+}
+style.selector.identifier.id {
+  color: $blue;
+}
+style.selector.identifier.class {
+  color: $orange;
+}
+style.selector.pseudoclass {
+  color: $orange;
+}
+style.selector.pseudoelement {
+  color: $orange;
+}
+style.attribute.name {
+  color: $text_color;
+}
+style.value.number {
+  color: $orange;
+}
+style.value.color.hex {
+  color: $cyan;
+}
+style.value.keyword {
+  color: $pink;
+}
+style.value.color.named {
+  color: $blue;
+}
+style.value.identifier.function {
+  color: $cyan;
+}
