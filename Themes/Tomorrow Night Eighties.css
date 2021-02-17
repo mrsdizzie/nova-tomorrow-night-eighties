@@ -173,6 +173,10 @@ identifier.type {
   color: #ffcc68;
 }
 
+identifier.constant {
+  color: #66ccce;
+}
+
 identifier.global {
   color: #e0e0e2;
 }
@@ -209,7 +213,7 @@ string.key {
 }
 
 string-template {
-  color: #99cc9b;
+  color: #ccccce;
 }
 
 string-template.value {
@@ -282,6 +286,10 @@ definition.method method.name {
 
 /* Tags */
 tag {
+  color: #b4b7b6;
+}
+
+tag.name {
   color: #ff6e76;
 }
 
@@ -350,4 +358,131 @@ style.value.identifier.function {
   color: #66ccce;
 }
 
-/*# sourceMappingURL=Tomorrow%20Night%20Eighties.css.map */
+/* Terminal */
+terminal.black,
+terminal.bright-black {
+  color: #272729;
+}
+
+terminal.red,
+terminal.bright-red {
+  color: #ff6e76;
+}
+
+terminal.green,
+terminal.bright-green {
+  color: #99cc9b;
+}
+
+terminal.yellow,
+terminal.bright-yellow {
+  color: #ffcc68;
+}
+
+terminal.blue,
+terminal.bright-blue {
+  color: #6699ce;
+}
+
+terminal.magenta,
+terminal.bright-magenta {
+  color: #cc99ce;
+}
+
+terminal.cyan,
+terminal.bright-cyan {
+  color: #66ccce;
+}
+
+terminal.white,
+terminal.bright-white {
+  color: #e0e0e2;
+}
+
+/* advancedPHP */
+advphp.static.condition {
+  color: #cc99ce;
+}
+
+advphp.static.processor {
+  color: #cc99ce;
+}
+
+advphp.static.declaration {
+  color: #cc99ce;
+}
+
+advphp.static.import {
+  color: #cc99ce;
+}
+
+advphp.static.constant {
+  color: #66ccce;
+}
+
+advphp.static.wordOperator {
+  color: #b4b7b6;
+}
+
+advphp.wp.keywords {
+  color: #66ccce;
+}
+
+advphp.curl.keywords {
+  color: #66ccce;
+}
+
+advphp.sql.keywords {
+  color: #cc99ce;
+}
+
+advphp.operator {
+  color: #b4b7b6;
+}
+
+advphp.bracket {
+  color: #b4b7b6;
+}
+
+advphp.delimiter {
+  color: #b4b7b6;
+}
+
+advphp.identifier.variable.prefix {
+  color: #b4b7b6;
+}
+
+advphp.identifier.variable.name {
+  color: #ff6e76;
+}
+
+advphp.identifier.variable.this {
+  color: #ffcc68;
+}
+
+advphp.identifier.function.keyword {
+  color: #cc99ce;
+}
+
+advphp.identifier.function.name {
+  color: #6699ce;
+}
+
+advphp.identifier.parameter.prefix {
+  color: #b4b7b6;
+}
+
+advphp.identifier.parameter.name {
+  color: #ff6e76;
+}
+
+advphp.identifier.object.name {
+  color: #ffcc68;
+}
+
+advphp.string,
+advphp.value.string,
+advphp.string.doubleQuote,
+advphp.string.singleQuote {
+  color: #99cc9b;
+}

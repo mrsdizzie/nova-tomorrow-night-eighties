@@ -1,3 +1,5 @@
 Based on the [Base16 Tomorrow Scheme](https://github.com/chriskempson/base16-tomorrow-scheme) "eighties" variant. It's very similar to Tomorrow Night, but with a lighter color palette.
 
-![Screenshot](https://i.postimg.cc/bJjBkD2K/screenshot.png)
+- **v1.1.0**: added support for [advancedPHP](nova://extension/?id=dennisosaj.advancedPHP&name=advanced%20PHP)
+
+![Screenshot](https://i.postimg.cc/dV3TDhQd/Screen-Shot-2021-02-17-at-3-49-55-PM.png)

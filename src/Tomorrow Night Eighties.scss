@@ -176,6 +176,7 @@ identifier.type {
   color: $yellow;
 }
 identifier.constant {
+  color: $cyan;
 }
 identifier.global {
   color: $text_color;
@@ -206,7 +207,7 @@ string.key {
   color: $green;
 }
 string-template {
-  color: $green;
+  color: $gray5;
 }
 string-template.value {
   color: $green;
@@ -268,6 +269,9 @@ definition.method method.name {
 
 /* Tags */
 tag {
+  color: $gray4;
+}
+tag.name {
   color: $red;
 }
 tag.framework {
@@ -319,4 +323,123 @@ style.value.color.named {
 }
 style.value.identifier.function {
   color: $cyan;
+}
+
+/* Terminal */
+
+terminal.black,
+terminal.bright-black {
+  color: $bg;
+}
+
+terminal.red,
+terminal.bright-red {
+  color: $red;
+}
+
+terminal.green,
+terminal.bright-green {
+  color: $green;
+}
+
+terminal.yellow,
+terminal.bright-yellow {
+  color: $yellow;
+}
+
+terminal.blue,
+terminal.bright-blue {
+  color: $blue;
+}
+
+terminal.magenta,
+terminal.bright-magenta {
+  color: $pink;
+}
+
+terminal.cyan,
+terminal.bright-cyan {
+  color: $cyan;
+}
+
+terminal.white,
+terminal.bright-white {
+  color: $text_color;
+}
+
+/* advancedPHP */
+
+advphp.static.condition {
+  color: $pink;
+}
+advphp.static.processor {
+  color: $pink;
+}
+advphp.static.declaration {
+  color: $pink;
+}
+advphp.static.import {
+  color: $pink;
+}
+advphp.static.constant {
+  color: $cyan;
+}
+advphp.static.wordOperator {
+  color: $gray4;
+}
+
+advphp.wp.keywords {
+  color: $cyan;
+}
+
+advphp.curl.keywords {
+  color: $cyan;
+}
+
+advphp.sql.keywords {
+  color: $pink;
+}
+
+advphp.operator {
+  color: $gray4;
+}
+advphp.bracket {
+  color: $gray4;
+}
+advphp.delimiter {
+  color: $gray4;
+}
+
+advphp.identifier.variable.prefix {
+  color: $gray4;
+}
+advphp.identifier.variable.name {
+  color: $red;
+}
+advphp.identifier.variable.this {
+  color: $yellow;
+}
+
+advphp.identifier.function.keyword {
+  color: $pink;
+}
+advphp.identifier.function.name {
+  color: $blue;
+}
+advphp.identifier.parameter.prefix {
+  color: $gray4;
+}
+advphp.identifier.parameter.name {
+  color: $red;
+}
+
+advphp.identifier.object.name {
+  color: $yellow;
+}
+
+advphp.string,
+advphp.value.string,
+advphp.string.doubleQuote,
+advphp.string.singleQuote {
+  color: $green;
 }
