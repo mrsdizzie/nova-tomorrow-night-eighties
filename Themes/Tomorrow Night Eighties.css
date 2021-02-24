@@ -8,7 +8,7 @@ meta {
  * Window styles
  */
 meta.window {
-  border-color: #2d2d2f;
+  border-color: #39393b;
   background-color: #202022;
 }
 
@@ -16,6 +16,10 @@ meta.titlebar {
   color: #e0e0e2;
   border-color: #272729;
   background-color: #202022;
+}
+
+meta.titlebar.inactive {
+  background-color: #39393b;
 }
 
 meta.button {
@@ -52,7 +56,7 @@ meta.textfield.highlighted {
  */
 meta.document {
   background-color: #272729;
-  border-color: #272729;
+  border-color: #515153;
 }
 
 meta.document.button {

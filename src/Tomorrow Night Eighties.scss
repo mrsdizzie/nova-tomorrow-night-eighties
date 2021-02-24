@@ -28,7 +28,7 @@ $brown: #d26e52;
  * Window styles
  */
 meta.window {
-  border-color: $gray0;
+  border-color: $gray1;
   background-color: $window_color;
 }
 meta.titlebar {
@@ -37,6 +37,7 @@ meta.titlebar {
   background-color: $window_color;
 }
 meta.titlebar.inactive {
+  background-color: $gray1;
 }
 
 meta.button {
@@ -71,7 +72,7 @@ meta.textfield.highlighted {
  */
 meta.document {
   background-color: $bg;
-  border-color: $bg;
+  border-color: $gray2;
 }
 
 meta.document.button {
