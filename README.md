@@ -1,6 +1,8 @@
-Based on the [Base16 Tomorrow Scheme](https://github.com/chriskempson/base16-tomorrow-scheme) "eighties" variant. It's very similar to Tomorrow Night, but with a lighter color palette.
+# Tomorrow Night Eighties Theme for Nova Text Editor
 
-- **v1.1.2**: increased border contrast; added inactive titlebar styling
-- **v1.1.0**: added support for advancedPHP ([Nova link](nova://extension/?id=dennisosaj.advancedPHP&name=advanced%20PHP) | [GitHub](https://github.com/dennisosaj/advancedphp.novaextension))
+Forked from and based on the work of https://github.com/blakewatson/nova-tomorrow-night-eighties
 
-![Screenshot](https://i.postimg.cc/dV3TDhQd/Screen-Shot-2021-02-17-at-3-49-55-PM.png)
+This includes a few missing slectors and some modification to the colors to make them closer to the original theme from https://github.com/chriskempson/tomorrow-theme
+
+<img width="1324" alt="Screenshot of Nova text editor with Tomorrow Night Eighties Theme" src="https://github.com/mrsdizzie/nova-tomorrow-night-eighties/assets/1669571/e01524ce-ab2c-4f19-93e7-850d578b6886">
+

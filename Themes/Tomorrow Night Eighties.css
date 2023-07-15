@@ -1,5 +1,5 @@
 meta {
-  -theme-display-name: "Tomorrow Night Eighties";
+  -theme-display-name: "Tomorrow Night Eighties Variant";
   -theme-interface-style: dark;
   -theme-accent-color: auto;
 }
@@ -14,7 +14,7 @@ meta.window {
 
 meta.titlebar {
   color: #e0e0e2;
-  border-color: #272729;
+  border-color: #2d2d2d;
   background-color: #202022;
 }
 
@@ -47,15 +47,15 @@ meta.textfield {
 }
 
 meta.textfield.highlighted {
-  background-color: #272729;
-  border-color: #383b3e;
+  background-color: #2d2d2d;
+  border-color: hsl(210, 5%, 23%);
 }
 
 /*
  * Document styles
  */
 meta.document {
-  background-color: #272729;
+  background-color: #2d2d2d;
   border-color: #515153;
 }
 
@@ -65,7 +65,7 @@ meta.document.button {
 }
 
 meta.document.button.disabled {
-  background: linear-gradient(rgba(61, 63, 67, 0.3), rgba(51, 53, 56, 0.3));
+  background: linear-gradient(hsla(220, 5%, 25%, 0.3), hsla(220, 5%, 21%, 0.3));
 }
 
 meta.document.button.highlighted {
@@ -79,7 +79,7 @@ meta.document.textfield {
 
 meta.document.textfield.highlighted {
   background-color: #202022;
-  border-color: #2e3033;
+  border-color: hsl(210, 5%, 19%);
 }
 
 /* Text */
@@ -122,8 +122,12 @@ keyword {
   color: #cc99ce;
 }
 
+keyword.self {
+  color: #f2777a;
+}
+
 comment {
-  color: #88888a;
+  color: #999999;
 }
 
 processing {
@@ -142,8 +146,12 @@ operator {
   color: #e0e0e2;
 }
 
+keyword.operator {
+  color: #cc99ce;
+}
+
 invalid {
-  background-color: #ff6e76;
+  background-color: rgba(242, 119, 122, 0.1);
   color: white;
 }
 
@@ -153,40 +161,52 @@ link {
 
 /* Values */
 value.boolean {
-  color: #f99159;
+  color: #f99157;
 }
 
 value.null {
-  color: #f99159;
+  color: #f99157;
 }
 
 value.number {
-  color: #f99159;
+  color: #f99157;
 }
 
 value.entity {
-  color: #f99159;
+  color: #f99157;
 }
 
 value.symbol {
-  color: #f99159;
+  color: #f99157;
+}
+
+type {
+  color: #ffcc66;
 }
 
 /* Identifiers */
+identifier {
+  color: #f2777a;
+}
+
 identifier.type {
-  color: #ffcc68;
+  color: #ffcc66;
 }
 
 identifier.constant {
-  color: #66ccce;
+  color: #66cccc;
 }
 
 identifier.global {
-  color: #e0e0e2;
+  color: #f2777a;
 }
 
 identifier.variable {
-  color: #ff6e76;
+  color: #f2777a;
+}
+
+identifier.core {
+  color: #cc99ce;
 }
 
 identifier.decorator,
@@ -196,7 +216,7 @@ identifier.method {
 }
 
 identifier.property {
-  color: #ff6e76;
+  color: #f2777a;
 }
 
 identifier.key {
@@ -204,7 +224,7 @@ identifier.key {
 }
 
 identifier.argument {
-  color: #ff6e76;
+  color: #f2777a;
 }
 
 /* Strings */
@@ -221,15 +241,15 @@ string-template {
 }
 
 string-template.value {
-  color: #99cc9b;
+  color: #f99157;
 }
 
 regex {
-  color: #66ccce;
+  color: #66cccc;
 }
 
 regex.escaped {
-  color: #66ccce;
+  color: #66cccc;
 }
 
 cdata {
@@ -246,7 +266,7 @@ markup.line {
 }
 
 markup.bold {
-  color: #ffcc68;
+  color: #ffcc66;
   font-weight: bold;
 }
 
@@ -260,11 +280,11 @@ markup.strikethrough {
 }
 
 markup.list.item {
-  color: #ff6e76;
+  color: #f2777a;
 }
 
 markup.code {
-  color: #88888a;
+  color: #999999;
 }
 
 markup.link {
@@ -294,15 +314,15 @@ tag {
 }
 
 tag.name {
-  color: #ff6e76;
+  color: #f2777a;
 }
 
 tag.framework {
-  color: #d26e52;
+  color: #ed7554;
 }
 
 tag.attribute.name {
-  color: #f99159;
+  color: #f99157;
 }
 
 tag.attribute.value {
@@ -319,7 +339,7 @@ style.at {
 }
 
 style.selector.element {
-  color: #ff6e76;
+  color: #f2777a;
 }
 
 style.selector.identifier.id {
@@ -327,15 +347,15 @@ style.selector.identifier.id {
 }
 
 style.selector.identifier.class {
-  color: #f99159;
+  color: #f99157;
 }
 
 style.selector.pseudoclass {
-  color: #f99159;
+  color: #f99157;
 }
 
 style.selector.pseudoelement {
-  color: #f99159;
+  color: #f99157;
 }
 
 style.attribute.name {
@@ -343,11 +363,11 @@ style.attribute.name {
 }
 
 style.value.number {
-  color: #f99159;
+  color: #f99157;
 }
 
 style.value.color.hex {
-  color: #66ccce;
+  color: #66cccc;
 }
 
 style.value.keyword {
@@ -359,18 +379,18 @@ style.value.color.named {
 }
 
 style.value.identifier.function {
-  color: #66ccce;
+  color: #66cccc;
 }
 
 /* Terminal */
 terminal.black,
 terminal.bright-black {
-  color: #272729;
+  color: #2d2d2d;
 }
 
 terminal.red,
 terminal.bright-red {
-  color: #ff6e76;
+  color: #f2777a;
 }
 
 terminal.green,
@@ -380,7 +400,7 @@ terminal.bright-green {
 
 terminal.yellow,
 terminal.bright-yellow {
-  color: #ffcc68;
+  color: #ffcc66;
 }
 
 terminal.blue,
@@ -395,7 +415,7 @@ terminal.bright-magenta {
 
 terminal.cyan,
 terminal.bright-cyan {
-  color: #66ccce;
+  color: #66cccc;
 }
 
 terminal.white,
@@ -421,7 +441,7 @@ advphp.static.import {
 }
 
 advphp.static.constant {
-  color: #66ccce;
+  color: #66cccc;
 }
 
 advphp.static.wordOperator {
@@ -429,11 +449,11 @@ advphp.static.wordOperator {
 }
 
 advphp.wp.keywords {
-  color: #66ccce;
+  color: #66cccc;
 }
 
 advphp.curl.keywords {
-  color: #66ccce;
+  color: #66cccc;
 }
 
 advphp.sql.keywords {
@@ -457,11 +477,11 @@ advphp.identifier.variable.prefix {
 }
 
 advphp.identifier.variable.name {
-  color: #ff6e76;
+  color: #f2777a;
 }
 
 advphp.identifier.variable.this {
-  color: #ffcc68;
+  color: #ffcc66;
 }
 
 advphp.identifier.function.keyword {
@@ -477,11 +497,11 @@ advphp.identifier.parameter.prefix {
 }
 
 advphp.identifier.parameter.name {
-  color: #ff6e76;
+  color: #f2777a;
 }
 
 advphp.identifier.object.name {
-  color: #ffcc68;
+  color: #ffcc66;
 }
 
 advphp.string,

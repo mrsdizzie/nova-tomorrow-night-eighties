@@ -1,28 +1,29 @@
 meta {
-  -theme-display-name: "Tomorrow Night Eighties";
+  -theme-display-name: 'Tomorrow Night Eighties Variant';
   -theme-interface-style: dark;
   -theme-accent-color: auto;
 }
 
 // Colors
 $window_color: #202022;
-$bg: #272729;
+$bg: #2d2d2d;
 $gray0: #2d2d2f;
 $gray1: #39393b;
 $gray2: #515153;
-$gray3: #88888a;
+$gray3: #999999;
 $gray4: #b4b7b6;
 $gray5: #ccccce;
 $text_color: #e0e0e2;
 $white: #fdfdff;
-$red: #ff6e76;
-$orange: #f99159;
-$yellow: #ffcc68;
+$red: #f2777a;
+$orange: #f99157;
+$yellow: #ffcc66;
 $green: #99cc9b;
-$cyan: #66ccce;
+$cyan: #66cccc;
 $blue: #6699ce;
+$cyan-blue: #cc99cc;
 $pink: #cc99ce;
-$brown: #d26e52;
+$brown: #ed7554;
 
 /*
  * Window styles
@@ -132,6 +133,10 @@ meta.gutter.selected {
 keyword {
   color: $pink;
 }
+keyword.self {
+  color: $red;
+}
+
 comment {
   color: $gray3;
 }
@@ -144,11 +149,17 @@ declaration {
 bracket {
   color: $text_color;
 }
+
 operator {
   color: $text_color;
 }
+
+keyword.operator {
+  color: $pink;
+}
+
 invalid {
-  background-color: $red;
+  background-color: rgba($red, 0.1); // Make red color very transparent
   color: white;
 }
 link {
@@ -171,8 +182,14 @@ value.entity {
 value.symbol {
   color: $orange;
 }
+type {
+  color: $yellow;
+}
 
 /* Identifiers */
+identifier {
+  color: $red;
+}
 identifier.type {
   color: $yellow;
 }
@@ -180,10 +197,13 @@ identifier.constant {
   color: $cyan;
 }
 identifier.global {
-  color: $text_color;
+  color: $red;
 }
 identifier.variable {
   color: $red;
+}
+identifier.core {
+  color: $pink;
 }
 identifier.decorator,
 identifier.function,
@@ -211,7 +231,7 @@ string-template {
   color: $gray5;
 }
 string-template.value {
-  color: $green;
+  color: $orange;
 }
 regex {
   color: $cyan;
