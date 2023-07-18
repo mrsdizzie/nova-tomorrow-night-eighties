@@ -150,6 +150,9 @@ bracket {
   color: $text_color;
 }
 
+// Operator must be listed first to get
+// proper cascading. I don't think Nova supports !important
+
 operator {
   color: $text_color;
 }
