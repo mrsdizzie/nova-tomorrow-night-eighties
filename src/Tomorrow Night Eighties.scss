@@ -197,7 +197,7 @@ identifier.type {
   color: $yellow;
 }
 identifier.constant {
-  color: $cyan;
+  color: $orange;
 }
 identifier.global {
   color: $red;
@@ -240,7 +240,7 @@ regex {
   color: $cyan;
 }
 regex.escaped {
-  color: $cyan;
+  color: $orange;
 }
 cdata {
   color: $text_color;
@@ -275,19 +275,19 @@ markup.link {
 }
 
 /* Types */
-definition.class class.name,
-definition.type type.name,
-definition.package package.name,
-definition.enum enum.name,
-definition.union union.name,
-definition.struct struct.name {
+definition.class, class.name,
+definition.type, type.name,
+definition.package, package.name,
+definition.enum, enum.name,
+definition.union, union.name,
+definition.struct, struct.name {
   color: $pink;
 }
 
 /* Members */
-definition.property property.name,
-definition.function function.name,
-definition.method method.name {
+definition.property, property.name,
+definition.function, function.name,
+definition.method, method.name {
   color: $pink;
 }
 

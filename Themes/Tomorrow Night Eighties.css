@@ -194,7 +194,7 @@ identifier.type {
 }
 
 identifier.constant {
-  color: #66cccc;
+  color: #f99157;
 }
 
 identifier.global {
@@ -249,7 +249,7 @@ regex {
 }
 
 regex.escaped {
-  color: #66cccc;
+  color: #f99157;
 }
 
 cdata {
@@ -292,19 +292,19 @@ markup.link {
 }
 
 /* Types */
-definition.class class.name,
-definition.type type.name,
-definition.package package.name,
-definition.enum enum.name,
-definition.union union.name,
-definition.struct struct.name {
+definition.class, class.name,
+definition.type, type.name,
+definition.package, package.name,
+definition.enum, enum.name,
+definition.union, union.name,
+definition.struct, struct.name {
   color: #cc99ce;
 }
 
 /* Members */
-definition.property property.name,
-definition.function function.name,
-definition.method method.name {
+definition.property, property.name,
+definition.function, function.name,
+definition.method, method.name {
   color: #cc99ce;
 }
 
