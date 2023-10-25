@@ -248,8 +248,8 @@ regex {
   color: #66cccc;
 }
 
-regex.escaped {
-  color: #f99157;
+regex.escape {
+  color: #ed7554;
 }
 
 cdata {

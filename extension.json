@@ -5,7 +5,7 @@
   "description": "A dark color scheme for Nova based on Base16 Tomorrow Night Eighties.",
   "repository": "https://github.com/mrsdizzie/nova-tomorrow-night-eighties",
   "bugs": "https://github.com/mrsdizzie/nova-tomorrow-night-eighties/issues",
-  "version": "1.1",
+  "version": "1.2",
   "categories": ["themes"],
   "license": "MIT"
 }
